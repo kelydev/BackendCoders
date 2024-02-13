@@ -1,0 +1,24 @@
+[
+	{
+		"title": "Laptop Lenovo",
+		"description": "Compacto y liviano, ofrece una nueva dimensión a todo tu contenido digital.",
+		"code": "P001",
+		"price": 5000,
+		"status": true,
+		"stock": 2,
+		"category": "Tecnologia",
+		"thumbnail": [],
+		"id": "2f7d40a353e318f651598607124db4e3"
+	},
+	{
+		"title": "Laptop hp",
+		"description": "Compacto y liviano, ofrece una nueva dimensión a todo tu contenido digital.",
+		"code": "P004",
+		"price": 5000,
+		"status": false,
+		"stock": 2,
+		"category": "Tecnologia",
+		"thumbnail": [],
+		"id": "a0cbf24d24a2e88029b6d1e7bcef3f2d"
+	}
+]
