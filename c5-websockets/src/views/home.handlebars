@@ -1,0 +1,22 @@
+<div class="container">
+  <h2 class="pt-50">Lista de Productos</h2>
+</div>
+<div class="container">
+    <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+          </tr>
+        </thead>
+        {{#each allProduct}}
+        <tbody>
+          <td>{{this.title}}</td>
+          <td>s/. {{this.price}}</td>
+          <td><img src={{this.thumbnails}} alt="img" width="100px"></td>
+        </tbody>
+        {{/each}}
+  </table>
+</div>
+

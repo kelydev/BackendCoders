@@ -1,0 +1,31 @@
+<div class="container">
+    <h2>Ingrese Producto</h2>
+    <div class="mb-3 mt-3">
+      <form id="create-product-form">
+        <label for="product-name">Nombre</label>
+        <input type="text" class="form-control"  id="product-name" name="title" value="Naranja">
+        <label for="product-price">Precio</label>
+        <input type="number" class="form-control"  id="product-price" name="price" value="10">
+        <label for="product-image">Foto URL</label>
+        <input type="text" class="form-control" id="product-image" name="thumbnails" value="https://cdn4.iconfinder.com/data/icons/fruit-pack/128/pack_frutas-04-512.png">
+        <br>
+        <button type="submit" class="btn btn-primary">Crear producto</button>
+      </form>
+    </div>
+    <br>
+    <h2> Historial de Productos</h2>
+    <div>
+      <table class="table">
+        <thead>
+          <tr>
+            <th>Nombre</th>
+            <th>Precio</th>
+            <th>Imagen</th>
+            <th>Eliminar</th>
+          </tr>
+        </thead>
+        <tbody id="product-list">
+        </tbody>
+      </table>
+    </div>
+</div>
